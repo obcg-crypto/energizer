@@ -1,0 +1,80 @@
+
+  
+  .table-container {
+    width: auto;
+    height: auto;
+    margin: 5px auto;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(233, 232, 232);
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .table-container > * {
+    margin-bottom: 50px;
+  }
+
+  .first-div {
+    margin-top: 50px;
+  }
+
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+    white-space: nowrap;
+  }
+  
+  th {
+    background-color: #0080ff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  tbody tr:hover {
+    background-color: #e1e1e1;
+  }
+
+  #search-option{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+  }
+  
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .search-range input[type="text"] {
+    flex: 1;
+  }
+  
+  .cancel-button{
+    width: 90px; /* Vous pouvez ajuster la largeur en fonction de vos besoins */
+    padding: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px; /* Espace de 5px entre l'input et le bouton */
+    cursor: pointer;
+  }
