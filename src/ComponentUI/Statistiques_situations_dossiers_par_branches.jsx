@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Statistiques_situations_dossiers_par_branches.css';
+import '../styles/style_global.css';
 
 const Statistiques_situations_dossiers_par_branches = () => {
     return (
@@ -183,8 +183,7 @@ const Statistiques_situations_dossiers_par_branches = () => {
                 </tbody>
             </table>
 
-            <p>Sapelli Energizer You Will Never Live Alone   ©1967-2010 CNPS/DSI BP 441 YAOUNDE TEL : 22 23 40 11</p>
-        </div>
+            <p>Sapelli Energizer You Will Never Live Alone   ©2023 CNPS/DSI BP 441 YAOUNDE TEL : 22 23 40 11</p>     </div>
     );
 }
 

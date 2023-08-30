@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/Nombre_Dossiers_Par_Nature_Prestations.css';
+import '../styles/style_global.css';
 
 const Nombre_Dossiers_Par_Nature_Prestations = () => {
     return (
         <div class="table-container">
 
-            <h2 class="first-div">Nombre de Dossiers Par Nature de Prestations : CNPS SIEGE</h2>
+            <h1>Nombre de Dossiers Par Nature de Prestations : CNPS SIEGE</h1>
 
             <div class="search-container">
                 <select id="search-option">
@@ -55,8 +55,7 @@ const Nombre_Dossiers_Par_Nature_Prestations = () => {
                 </tbody>
             </table>
 
-            <p>Sapelli Energizer You Will Never Live Alone   ©1967-2010 CNPS/DSI BP 441 YAOUNDE TEL : 22 23 40 11 </p>
-        </div>
+            <p>Sapelli Energizer You Will Never Live Alone   ©2023 CNPS/DSI BP 441 YAOUNDE TEL : 22 23 40 11</p></div>
     );
 }
 

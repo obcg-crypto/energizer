@@ -11,8 +11,10 @@ const NavSide = ({navSideData,setContainer}) => {
             return (
                 <div className = "MenuContainer">
                     <Accordions setContainer={setContainer} setDisplayNav={setDisplayNav} navSideData={navSideData}/>
-                    <div className="navFooter">
+                    <div className="navContainer">
+                        <div className="navFooter">
                             &copy; CNPS 2023
+                        </div>
                         </div>
                     
                 </div>

@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/Statistiques_duree_traitement_des_dossiers.css';
+import '../styles/style_global.css';
 
 const Statistiques_duree_traitement_des_dossiers = () => {
     return (
-        <div class="table-container_statistique">
+        <div>
 
-            <h2 class="first-div">STATISTIQUES DUREE DE TRAITEMENT DES DOSSIERS AU : CNPS SIEGE</h2>
+            <h1>STATISTIQUES DUREE DE TRAITEMENT DES DOSSIERS AU : CNPS SIEGE</h1>
 
             <table>
                 <thead>

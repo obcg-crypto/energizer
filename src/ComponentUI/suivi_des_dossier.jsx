@@ -1,10 +1,10 @@
 import React from 'react';
-import '../styles/suivi_des_dossier.css';
+import '../styles/style_global.css';
 
 const Suivi_des_dossiers = () => {
     return (
         <div class="table-container">
-            <h1 class="first-div">Suivi des dossiers</h1>
+            <h1>Suivi des dossiers</h1>
             <div class="search-container">
                 <select id="search-option">
                     <option value="dossier">N° Dossier</option>

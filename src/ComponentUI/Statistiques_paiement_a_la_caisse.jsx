@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/Statistiques_paiement_a_la_caisse.css';
+import '../styles/style_global.css';
 
 const Statistiques_paiement_a_la_caisse = () => {
     return (
-        <div class="table-container_statistique">
+        <div>
 
-            <table class="">
+            <table>
                 <thead>
                     <tr>
                         <th>
@@ -22,7 +22,7 @@ const Statistiques_paiement_a_la_caisse = () => {
                 <tbody>
                     <tr>
                         <td>
-                        <select id="search-option">
+                            <select id="search-option">
                                 <option value="centreSvp">Centre svp</option>
                                 <option value="doualaBonanjo">CPS de Douala-Bonanjo</option>
                                 <option value="doualaBonanjo">CPS de Bafoussam</option>
@@ -123,8 +123,8 @@ const Statistiques_paiement_a_la_caisse = () => {
                         <td>Donnée 6</td>
                     </tr>
                     <tr>
-                        
-                    <td>1</td>
+
+                        <td>1</td>
                         <td>Donnée 2</td>
                         <td>Donnée 3</td>
                         <td>Donnée 4</td>
@@ -132,98 +132,8 @@ const Statistiques_paiement_a_la_caisse = () => {
                         <td>Donnée 6</td>
                     </tr>
                     <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                        <td>Donnée 6</td>
-                    </tr>
-                    <tr>
-                        
-                    <td>1</td>
+
+                        <td>1</td>
                         <td>Donnée 2</td>
                         <td>Donnée 3</td>
                         <td>Donnée 4</td>

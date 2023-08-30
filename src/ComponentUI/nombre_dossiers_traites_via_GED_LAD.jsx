@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/nombre_dossiers_traites_via_GED_LAD.css';
+import '../styles/style_global.css';
 
 const Nombre_dossiers_traites_via_GED_LAD = () => {
     return (
@@ -110,13 +110,6 @@ const Nombre_dossiers_traites_via_GED_LAD = () => {
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Donnée 2</td>
-                        <td>Donnée 3</td>
-                        <td>Donnée 4</td>
-                        <td>Donnée 5</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
                         <td>Donnée 2</td>
                         <td>Donnée 3</td>
                         <td>Donnée 4</td>

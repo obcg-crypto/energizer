@@ -53,8 +53,8 @@
 }
 .navigationBox{
   margin: 0px 10px;
-  position: relative;
   background-color: #1a1e23;
+  position: relative;
   padding:0px 10px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -66,7 +66,7 @@
   color: white;
 }
 .mainBox{
-  background-color:rgb(233, 232, 232) ;
+  background-color: #fff;
   height: 900px;
   border-radius: 5px;
   display: flex;
@@ -122,7 +122,7 @@
 }
 
 .bannerImg{
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
 }
 .navFooter{
@@ -151,8 +151,12 @@
 
 .image-container {
   position: fixed;
-  bottom: 0px;
-  right: -215px;
+  right: 0;
+  bottom: 0;
+  width: 400px; /* Largeur de votre choix */
+  height: auto; /* Laissez la hauteur auto pour maintenir le rapport d'aspect de l'image */
+  padding: 10px;
+  color: white;
 }
 .consultation_container{
   width: 100% !important;
@@ -188,3 +192,37 @@
 .consultation_main{
   width: 100px !important;
 }
+.navContainer{
+  position: relative;
+}
+
+
+
+
+
+
+
+.mainBox {
+  display: flex;
+}
+
+.contentWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.NavSide {
+  order: 1; /* Déplace NavSide en haut de la colonne */
+}
+
+.leftContainer {
+  order: 2; /* Déplace leftContainer en dessous de NavSide */
+  flex: 1;
+  overflow-y: auto;
+}
+
+
+/* Autres styles spécifiques pour container-fluid et image-container */
+
+

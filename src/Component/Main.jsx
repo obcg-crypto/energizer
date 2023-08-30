@@ -6,6 +6,8 @@ import{IoNewspaperOutline} from 'react-icons/io5'
 import{AiOutlineBars} from 'react-icons/ai'
 import Profil from "../ComponentUI/Profil"
 import logo from "../assets/logoCnps.png"
+import banner from '../assets/cnpsBanner.png'
+
 const Main = () => {
     const [active,setActive] = useState(1)
     return (
@@ -35,6 +37,7 @@ const Main = () => {
             </div>
             
             <MainContainer navSideData={active}/>
+
         </div>
     );
 }
